@@ -1,16 +1,17 @@
 using UnityEngine;
 
 public class VideoScreenPanelScroller : MonoBehaviour {
-    private RectTransform _playerGroupTF;
-
     public bool isScrollable;
     [SerializeField] private RectTransform playerScreen;
     [SerializeField] private float scrollSpeed;
     
+    private RectTransform _playerGroupTF;
+    private Vector3 _playerGroupPos;
+    
     
     private void Init() {
-        this.isScrollable = true;
         this._playerGroupTF = this.GetComponent<RectTransform>();
+        this._playerGroupPos = this._playerGroupTF.position;
     }
 
     private void Awake() {
@@ -22,6 +23,7 @@ public class VideoScreenPanelScroller : MonoBehaviour {
     }
 
     public void OnButtonClick() {
+        this._playerGroupTF.position = this._playerGroupPos;
         this.isScrollable = true;
     }
     

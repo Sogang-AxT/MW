@@ -3,20 +3,39 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
-[Serializable]
+[Serializable] 
 public class VideoFromPy : MonoBehaviour {
-    private string videoDir = Path.Combine(Application.streamingAssetsPath, "videos");
-    private string exePath = Path.Combine(Application.streamingAssetsPath, "dist/random_pay_d3.exe");
-    
-    private string _videoInfo;
-    private List<Dictionary<string, int>> _segment;
+    [Serializable]
+    public class VideoInfoDto {
+        [JsonProperty("video_path")] public string videoPath;
+        [JsonProperty("segments")] public List<Segment> segments;
+    }
 
+    [Serializable]
+    public class Segment {
+        public int id;
+        public int start;
+        public int end;
+    }
+    
+    //--//
+    
+    private VideoController _videoController;
+    private string _videoDir;
+    private string _exePath;
+    private string _videoInfo;
+    
     
     private void Init() {
+        this._videoController = this.GetComponent<VideoController>();
+
+        this._videoDir = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/video");
+        this._exePath = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/dist/random_play_d3.exe");
         this._videoInfo = string.Empty;
-        this._segment = new();
     }
 
     private void Awake() {
@@ -24,16 +43,26 @@ public class VideoFromPy : MonoBehaviour {
     }
     
     public async void OnButtonClick() {
-        this._videoInfo = await GetVideoPathAsync();
-        UnityEngine.Debug.Log(this._videoInfo);
+        this._videoInfo = await GetVideoInfoAsync();
+        
+        var json = this._videoInfo.Trim();
+        Debug.Log(json);
+
+        try {
+            var dto = JsonConvert.DeserializeObject<VideoInfoDto>(json);
+            this._videoController.VideoSetup(dto);
+        }
+        catch (Exception e) {
+            Debug.LogError("Deserializing Error");
+        }
     }
 
-    private Task<string> GetVideoPathAsync() {
+    private Task<string> GetVideoInfoAsync() {
         return Task.Run(() => {
                 try {
                     var processStartInfo = new ProcessStartInfo {
-                        FileName = this.exePath,
-                        Arguments = $"\"{this.videoDir}\"",
+                        FileName = this._exePath,
+                        Arguments = $"\"{this._videoDir}\"",
                         UseShellExecute = false,
                         RedirectStandardOutput = true,
                         RedirectStandardError = true,
@@ -48,13 +77,13 @@ public class VideoFromPy : MonoBehaviour {
                     var error = errorReader.ReadToEnd();
 
                     if (!string.IsNullOrEmpty(error)) {
-                        UnityEngine.Debug.LogError($"py Error: {error}");
+                        Debug.LogError($"py Error: {error}");
                     }
                     
                     return result;
                 }
-                catch (System.Exception e) {
-                    UnityEngine.Debug.LogError($"Process Start Error: {e.Message}");
+                catch (Exception e) {
+                    Debug.LogError($"Process Start Error: {e.Message}");
                     return null;
                 }
             }

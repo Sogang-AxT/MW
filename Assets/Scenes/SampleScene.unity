@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 1481898547665983745, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+      objectReference: {fileID: 8400000, guid: d6945b28d274b9c4c9adea4d99fd2398, type: 2}
     - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Name
       value: Video Screen Panel (4)
@@ -219,6 +219,14 @@ PrefabInstance:
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -397,7 +405,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -410,8 +418,8 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
+  m_SkipOnDrop: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -665,13 +673,13 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 330585545}
-  m_TargetTexture: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 21377a5a9fce0d94c939eaa540d829b0, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -684,8 +692,8 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
+  m_SkipOnDrop: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -720,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 1481898547665983745, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+      objectReference: {fileID: 8400000, guid: 21377a5a9fce0d94c939eaa540d829b0, type: 2}
     - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Name
       value: Video Screen Panel (3)
@@ -805,6 +813,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -839,13 +855,13 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 330585545}
-  m_TargetTexture: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: d6945b28d274b9c4c9adea4d99fd2398, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -858,8 +874,8 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
+  m_SkipOnDrop: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -912,13 +928,13 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 330585545}
-  m_TargetTexture: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: f5a7c6ec6ec56344a8f5cd5d21185ace, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -931,8 +947,8 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
+  m_SkipOnDrop: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1047,6 +1063,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1128,7 +1152,7 @@ Transform:
   m_GameObject: {fileID: 1445017725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 600, y: -45, z: 0}
+  m_LocalPosition: {x: 600, y: -55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1415,16 +1439,16 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2113095858}
   - {fileID: 948679603}
   - {fileID: 1982833150}
   - {fileID: 1067278604}
   - {fileID: 121263175}
+  - {fileID: 2113095858}
   m_Father: {fileID: 1462233737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4897}
+  m_AnchoredPosition: {x: 0, y: 5247}
   m_SizeDelta: {x: 1920, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696298354
@@ -1479,10 +1503,10 @@ PrefabInstance:
     - target: {fileID: 1481898547665983745, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 8400000, guid: 25b8dfc2957b84232aa2b41b73a89e1f, type: 2}
+      objectReference: {fileID: 8400000, guid: f5a7c6ec6ec56344a8f5cd5d21185ace, type: 2}
     - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Name
-      value: Video Screen Panel
+      value: Video Screen Panel (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
@@ -1563,6 +1587,14 @@ PrefabInstance:
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1724,8 +1756,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1870959661}
   - component: {fileID: 1870959660}
+  - component: {fileID: 1870959662}
   m_Layer: 0
-  m_Name: VideoFromPy
+  m_Name: VideoController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1758,6 +1791,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1870959662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870959659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6b45b6ecb54f1b804aedea16ab6f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoController
+  videoPlayerDic:
+    m_keys: 0100000002000000030000000400000005000000
+    m_values:
+    - {fileID: 568348734}
+    - {fileID: 2143734666}
+    - {fileID: 922405037}
+    - {fileID: 1046406314}
+    - {fileID: 1095711249}
 --- !u!224 &1982833150 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
@@ -1803,7 +1856,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -1816,8 +1869,8 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
+  m_SkipOnDrop: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1931,6 +1984,26 @@ PrefabInstance:
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_Center.y
+      value: 541
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
