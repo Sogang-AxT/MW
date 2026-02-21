@@ -43,6 +43,8 @@ public class VideoFromPy : MonoBehaviour {
     }
     
     public async void OnButtonClick() {
+        if (VideoScreenPanelScroller.IsScrollable) return;
+        
         this._videoInfo = await GetVideoInfoAsync();
         
         var json = this._videoInfo.Trim();

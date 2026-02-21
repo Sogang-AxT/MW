@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class VideoScreenPanelScroller : MonoBehaviour {
-    public bool isScrollable;
+    static public bool IsScrollable;
     [SerializeField] private RectTransform playerScreen;
     [SerializeField] private float scrollSpeed;
     
@@ -23,12 +23,14 @@ public class VideoScreenPanelScroller : MonoBehaviour {
     }
 
     public void OnButtonClick() {
+        if (IsScrollable) return;
+        
         this._playerGroupTF.position = this._playerGroupPos;
-        this.isScrollable = true;
+        IsScrollable = true;
     }
     
     private void PanelScroll() {
-        if (!this.isScrollable) return;
+        if (!IsScrollable) return;
         if (this.scrollSpeed == 0f) Debug.LogWarning("ScrollSpeed is zero");
         
         this._playerGroupTF.transform.Translate(Vector3.down * (this.scrollSpeed * Time.deltaTime));
