@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Ports;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
@@ -29,6 +30,9 @@ public class VideoFromPy : MonoBehaviour {
     private string _exePath;
     private string _videoInfo;
     
+    private SerialPort _serialPort;
+    private bool _isProcessing;
+    
     
     private void Init() {
         this._videoController = this.GetComponent<VideoController>();
@@ -36,11 +40,46 @@ public class VideoFromPy : MonoBehaviour {
         this._videoDir = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/video");
         this._exePath = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/dist/random_play_d3.exe");
         this._videoInfo = string.Empty;
+        this._isProcessing = false;
+        
+        try {
+            this._serialPort = new SerialPort("COM8", 1200);
+            this._serialPort.NewLine = "\n";
+            this._serialPort.ReadTimeout = 50;
+            this._serialPort.Open();
+            
+            Debug.Log("Serial Connected to COM8");
+        }
+        catch (Exception e) {
+            Debug.LogError("Serial Error: " + e.Message);
+        }
     }
 
     private void Awake() {
         Init();
     }
+    
+    private void Update()
+    {
+        if (_serialPort == null || !_serialPort.IsOpen) return;
+
+        try {
+            var data = _serialPort.ReadLine();
+            Debug.Log("Serial received: " + data);
+
+            if (data.Trim() == "PLAY") {
+                OnButtonClick();
+            }
+        }
+        catch (TimeoutException) {
+            // Normal — no data this frame
+        }
+        catch (Exception e) {
+            Debug.LogError("Serial Read Error: " + e.Message);
+        }
+    }
+    
+    
     
     public async void OnButtonClick() {
         if (VideoScreenPanelScroller.IsScrollable) return;
