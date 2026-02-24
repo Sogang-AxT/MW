@@ -18,6 +18,7 @@ public class ScreenPanelPositionTracker : MonoBehaviour {
             if (this._playerCount >= 5) {
                 this._playerCount = 0;
                 VideoScreenPanelScroller.IsScrollable = false;
+                VideoScreenPanelScroller.IsTimeOut = false;
             }
             
             return;

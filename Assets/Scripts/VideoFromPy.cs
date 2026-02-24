@@ -59,8 +59,7 @@ public class VideoFromPy : MonoBehaviour {
         Init();
     }
     
-    private void Update()
-    {
+    private void Update() {
         if (_serialPort == null || !_serialPort.IsOpen) return;
 
         try {
@@ -79,8 +78,6 @@ public class VideoFromPy : MonoBehaviour {
             Debug.LogError("Serial Read Error: " + e.Message);
         }
     }
-    
-    
     
     public async void OnButtonClick() {
         if (VideoScreenPanelScroller.IsScrollable) return;
