@@ -11,6 +11,7 @@ public class VideoController : MonoBehaviour {
     
     private readonly Dictionary<int, VideoPlayer.EventHandler> _prepareHandlers = new();
     
+
     public void VideoSetup(VideoFromPy.VideoInfoDto videoInfoDto) {
         this._videoURL = videoInfoDto.videoPath;
         this._segments = videoInfoDto.segments;

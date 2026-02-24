@@ -5,49 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c6fcd0-5416-45ce-8030-8c2570a935fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameControlDictionary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameControlDictionary.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VideoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VideoController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenPanelPositionTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenPanelPositionTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoFromPy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoFromPy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/Analysis-00.toc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/EXE-00.toc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PKG-00.toc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PYZ-00.pyz.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/PYZ-00.toc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/base_library.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs/pyimod01_archive.pyc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs/pyimod02_importers.pyc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs/pyimod03_ctypes.pyc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs/pyimod04_pywin32.pyc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/localpycs/struct.pyc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/random_pay_d3.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/random_pay_d3.pkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/warn-random_pay_d3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/warn-random_pay_d3.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/xref-random_pay_d3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build/random_pay_d3/xref-random_pay_d3.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/dist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/dist/random_pay_d3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/dist/random_pay_d3.exe.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/random_pay_d3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/random_pay_d3.py.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/random_pay_d3.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/random_pay_d3.spec.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/videos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoScreenPanelScroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoScreenPanelScroller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Video Screen Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Video Screen Panel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +53,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,11 +73,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
-        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="74c6fcd0-5416-45ce-8030-8c2570a935fb" name="Changes" comment="" />
@@ -119,6 +89,7 @@
       <workItem from="1771660981274" duration="8000" />
       <workItem from="1771661024066" duration="45000" />
       <workItem from="1771661117655" duration="1394000" />
+      <workItem from="1771933672068" duration="12000" />
     </task>
     <servers />
   </component>

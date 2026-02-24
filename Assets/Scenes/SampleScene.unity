@@ -140,6 +140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Video Screen Panel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -154,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.x
@@ -162,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -202,11 +206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -3780
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -222,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_IsTrigger
@@ -733,6 +737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Video Screen Panel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -747,7 +755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.x
@@ -755,7 +763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -795,11 +803,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -2700
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -815,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_IsTrigger
@@ -983,6 +991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Video Screen Panel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -997,7 +1009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1005,7 +1017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1045,11 +1057,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1620
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1065,7 +1077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_IsTrigger
@@ -1152,7 +1164,7 @@ Transform:
   m_GameObject: {fileID: 1445017725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 600, y: -55, z: 0}
+  m_LocalPosition: {x: 600, y: -608, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1448,7 +1460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5247}
+  m_AnchoredPosition: {x: 0, y: 6429}
   m_SizeDelta: {x: 1920, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696298354
@@ -1458,7 +1470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696298352}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
@@ -1489,7 +1501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fee6b94804145e292216eea15d1cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  isScrollable: 0
   playerScreen: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
   scrollSpeed: 125
 --- !u!1001 &1789122653
@@ -1508,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Video Screen Panel (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1522,7 +1537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1530,7 +1545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1570,11 +1585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -4860
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1590,7 +1605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_IsTrigger
@@ -1776,6 +1791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b470ba3dc1944809e4b035835cd75ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoFromPy
+  _videoScreenPanelScroller: {fileID: 1696298355}
+  _videoController: {fileID: 1870959662}
 --- !u!4 &1870959661
 Transform:
   m_ObjectHideFlags: 0
@@ -1905,6 +1922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Video Screen Panel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3872457719949301442, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1919,7 +1940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1927,7 +1948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1967,11 +1988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -540
       objectReference: {fileID: 0}
     - target: {fileID: 3904809588835880860, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1986,20 +2007,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
-      propertyPath: m_Center.y
-      value: 541
       objectReference: {fileID: 0}
     - target: {fileID: 5164006316921115949, guid: e21797ebc4fc84012a1321469607c0e3, type: 3}
       propertyPath: m_IsTrigger

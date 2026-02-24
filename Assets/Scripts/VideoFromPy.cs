@@ -24,8 +24,10 @@ public class VideoFromPy : MonoBehaviour {
     }
     
     //--//
+
+    [SerializeField] private VideoScreenPanelScroller _videoScreenPanelScroller;
+    [SerializeField] private VideoController _videoController;
     
-    private VideoController _videoController;
     private string _videoDir;
     private string _exePath;
     private string _videoInfo;
@@ -35,15 +37,13 @@ public class VideoFromPy : MonoBehaviour {
     
     
     private void Init() {
-        this._videoController = this.GetComponent<VideoController>();
-
         this._videoDir = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/video");
         this._exePath = Path.Combine(Application.streamingAssetsPath, "RandomPlayD3/dist/random_play_d3.exe");
         this._videoInfo = string.Empty;
         this._isProcessing = false;
         
         try {
-            this._serialPort = new SerialPort("COM8", 1200);
+            this._serialPort = new SerialPort("COM1", 9600);
             this._serialPort.NewLine = "\n";
             this._serialPort.ReadTimeout = 50;
             this._serialPort.Open();
@@ -69,6 +69,7 @@ public class VideoFromPy : MonoBehaviour {
 
             if (data.Trim() == "PLAY") {
                 OnButtonClick();
+                this._videoScreenPanelScroller.OnButtonClick();
             }
         }
         catch (TimeoutException) {
